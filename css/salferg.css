@@ -1,2 +1,20 @@
+@font-face {
+  font-family: 'roboto';
+  src: url("fonts/KaushanScript-Regular.eot");
+  src: url("fonts/KaushanScript-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/KaushanScript-Regular.woff") format("woff"), url("fonts/KaushanScript-Regular.ttf") format("truetype"), url("fonts/KaushanScript-Regular.otf") format("opentype"), url("fonts/KaushanScript-Regular.svg#kaushan") format("svg"); }
+
+/* line 9, C:/www/portfolio-salferg/css/salferg.scss */
+html, body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15pt;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0; }
+
+/* line 12, C:/www/portfolio-salferg/css/salferg.scss */
+h1 {
+  font-size: 2rem; }
 
 /*# sourceMappingURL=salferg.css.map */

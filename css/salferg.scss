@@ -1,0 +1,14 @@
+// Core variables and mixins
+@import "partials/variables";
+@import "partials/mixins";
+
+@font-face{
+    @include font_roboto;
+}
+
+html, body{
+    @include body_html; 
+    }
+h1{
+    font-size: 2rem;
+}

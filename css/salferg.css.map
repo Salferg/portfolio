@@ -2,9 +2,11 @@
   "version": 3,
   "file": "salferg.css",
   "sources": [
-    "salferg.scss"
+    "salferg.scss",
+    "partials/_variables.scss",
+    "partials/_mixins.scss"
   ],
   "sourcesContent": [],
-  "mappings": "",
+  "mappings": "AAIA,UAAU;EE6BN,WAAW,EAAE,QAAS;EACtB,GAAG,EAAE,sCAAG;EACX,GAAG,EAAE,6CAAG,CAA2C,2BAAM,EACpD,uCAAG,CAAqC,cAAM,EAC9C,sCAAG,CAAqC,kBAAM,EAC3C,sCAAG,CAAqC,kBAAM,EACjD,8CAAG,CAA4C,aAAM;;;AF/BrD,IAAI,EAAE,IAAI,CAAN;EEeN,WAAW,EDDA,gBAAgB,EAAE,SAAS,EAAE,KAAK,EAAE,UAAU;ECEzD,SAAS,EDDD,IAAI;ECEZ,MAAM,EAAE,MAAO;EACf,MAAM,EAAE,CAAE;EACV,OAAO,EAAE,CAAE;EACX,GAAG,EAAE,CAAE;EACP,IAAI,EAAE,CAAE,GFrBD;;;AAGX,EAAE,CAAA;EACE,SAAS,EAAE,IAAK,GADjB",
   "names": []
 }

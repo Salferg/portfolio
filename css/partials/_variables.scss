@@ -15,12 +15,13 @@ $c_11: #333;
 $c_12: #1a1a1a;
 $c_12d: darken($c_12, 6%);
 $c_12dd: #0a0a0a;
-$c_body: #020202;
-$c_corp: #D6F224;
-$c_corp_hover: #E4FC47;
 $c_red: #ac2925;
 $c_red_hover: #c9302c;
 
+
+//FONTS
+$font_primary: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font_size: 15pt;
 
 //BREAKPOINTS
 $movil: 768px;

@@ -1,0 +1,41 @@
+
+
+@mixin central {
+    position: absolute;
+    left:50%;
+}
+
+@mixin central_rel {
+    position: relative;
+    left:50%;
+}
+
+@mixin central_fixed {
+    position: fixed;
+    left:50%;
+}
+
+@mixin no_margin{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+@mixin body_html{
+    font-family: $font_primary;
+    font-size: $font_size; 
+    border: 0 none; 
+    margin: 0; 
+    padding: 0; 
+    top: 0; 
+    left: 0;     
+}
+
+@mixin font_roboto{
+    font-family: 'roboto';
+    src: url('fonts/KaushanScript-Regular.eot');
+	src: url('fonts/KaushanScript-Regular.eot?#iefix') format('embedded-opentype'), 
+	     url('fonts/KaushanScript-Regular.woff') format('woff'), 
+	     url('fonts/KaushanScript-Regular.ttf')  format('truetype'),
+         url('fonts/KaushanScript-Regular.otf')  format('opentype'),
+	     url('fonts/KaushanScript-Regular.svg#kaushan') format('svg');
+}
