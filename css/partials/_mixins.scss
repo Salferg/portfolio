@@ -1,18 +1,21 @@
+@mixin hover_color($color){
+    &hover{
+        color: $color;
+    }
+}
 
-
-@mixin central {
-    position: absolute;
+@mixin central($position:relative) {
+    position: $position;
     left:50%;
 }
 
-@mixin central_rel {
-    position: relative;
-    left:50%;
-}
-
-@mixin central_fixed {
-    position: fixed;
-    left:50%;
+@mixin border($color, $radius:10px){
+    border:{
+        radius: $radius;
+        color: $color;
+        style: solid;
+        width: 1px;
+    }
 }
 
 @mixin no_margin{
@@ -22,7 +25,7 @@
 
 @mixin body_html{
     font-family: $font_primary;
-    font-size: $font_size; 
+    font-size: $font_size_default; 
     border: 0 none; 
     margin: 0; 
     padding: 0; 
