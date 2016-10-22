@@ -1,14 +1,19 @@
-// Core variables and mixins
-@import "partials/variables";
-@import "partials/mixins";
+//HELPERS Core variables and mixins
+@import "helpers/variables";
+@import "helpers/mixins";
 
-@font-face{
-    @include font_roboto;
-}
+//COMPONENTS
+@import "components/html";
+@import "components/grid";
+@import "components/header";
+@import "components/footer";
+@import "components/buttons";
 
-html, body{
-    @include body_html; 
-    }
-h1{
-    font-size: 2rem;
-}
+//PAGES
+@import "pages/home";
+@import "pages/about";
+@import "pages/contact";
+
+
+
+

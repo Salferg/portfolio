@@ -3,7 +3,7 @@
   src: url("fonts/KaushanScript-Regular.eot");
   src: url("fonts/KaushanScript-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/KaushanScript-Regular.woff") format("woff"), url("fonts/KaushanScript-Regular.ttf") format("truetype"), url("fonts/KaushanScript-Regular.otf") format("opentype"), url("fonts/KaushanScript-Regular.svg#kaushan") format("svg"); }
 
-/* line 9, C:/www/portfolio-salferg/css/salferg.scss */
+/* line 5, C:/www/portfolio-salferg/css/components/_html.scss */
 html, body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15pt;
@@ -13,7 +13,7 @@ html, body {
   top: 0;
   left: 0; }
 
-/* line 12, C:/www/portfolio-salferg/css/salferg.scss */
+/* line 1, C:/www/portfolio-salferg/css/components/_header.scss */
 h1 {
   font-size: 2rem; }
 
